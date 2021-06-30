@@ -25,7 +25,7 @@ namespace Amp
             $promise = Promise\all($promise);
         }
 
-        $fiber = \Fiber::this();
+        $fiber = \Fiber::getCurrent();
         $resolved = false;
 
         if ($fiber) { // Awaiting from within a fiber.
