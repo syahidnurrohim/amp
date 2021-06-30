@@ -33,8 +33,7 @@
         }
     ],
     "require": {
-        "php": ">=8",
-        "ext-fiber": "*"
+        "php": ">=8"
     },
     "require-dev": {
         "ext-json": "*",
